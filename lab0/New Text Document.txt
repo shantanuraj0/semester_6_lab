@@ -1,0 +1,2 @@
+echo "$(<file1.txt)">>res3.txt "$(<file2.txt)">>res3.txt
+cat file1.txt file2.txt > conRes.txt

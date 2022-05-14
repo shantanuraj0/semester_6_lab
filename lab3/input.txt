@@ -1,0 +1,4 @@
+mala #y# Reverse(mala)
+block # drive # cut # pull # hook # sweep # Reverse(sweep)
+Reverse(side) # Reverse(direction) # Reverse(gear)
+mala #y# Reverse(Reverse(mala))

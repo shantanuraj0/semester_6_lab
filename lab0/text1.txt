@@ -1,0 +1,43 @@
+Welcome to Lab 0 of CS320. This entire lab is designed to introduce you to the Linux operating system,
+some of its tools, and to help you become accustomed to the lab environment. You shall be using Linux for
+all practical work in CS320. Although this lab is not assessed, it is possibly the most crucial lab of the course
+as far as building your understanding of Linux is concerned. Please take it seriously: work carefully, and think
+critically about what you are doing at each step.
+Linux may be unfamiliar territory for you. Even if you already have some Linux experience, you should come
+into the computer labs and familiarize yourself with the Linux environment before your scheduled lab session.
+In particular, you should treat the first section of this lab sheet as preparation work: be sure to get through
+all of it before you arrive for class.
+This lab is only the beginning, however, as you will continue to learn about Linux and its tools over the
+semester. Here is some helpful, general advice:
+• Take the time to experiment with the work that you do. Ask yourself questions as you go along. Play with
+the commands and tools that you meet.
+• When you run into difficulties, try to work through them on your own or with a fellow student before
+seeking the help of your tutor. Any help that you eventually receive will be of greater value if you have
+already thoroughly thought about the problem you are tackling.
+We hope you enjoy the lab and, more generally, the unit!
+1 Preparation: The CS320 lab environment
+This part of the lab will help you get started in your Linux work environment1 and introduce you to the
+fundamental tasks that you’ll need to be able to carry out while doing the unit. You should treat this section as
+preparation work: try to get through as much of it as possible before you arrive at your scheduled lab.
+1.1 Orientation
+For our work in Linux, we use the Bash shell via the desktop terminal program.2 Bash is an example of a shell,
+which is a program that acts as your text-based interface to the operating system. It takes your typed commands
+as input and displays text in response. This program is already running, and waiting for you, when you first
+start using Linux; you don’t need to do anything to start it.
+Open up a terminal in your Linux desktop environment (look under “Accessories” in the “Applications” menu
+on the task panel). You should see the $ prompt of the Bash shell as it awaits your command.
+Spend a minute or so experimenting. Try pressing Return; what happens? What if you enter some spaces
+(then Return)? What if you enter some random text? Try the commands pwd and ls.
+Files in Linux are organised into directories. These are arranged in a tree: every directory has one parent
+directory, and may have one or more subdirectories.
+3
+At any given time, as you interact with Linux via Bash, you have a “current location” within this directory
+hierarchy. This is known as your current directory or working directory. You can find this out using the command
+pwd, for print working directory.
+1
+If you already have Linux installed on a laptop that you can bring to class, you’re welcome to work within that environment.
+However, CS320 teaching staff are under no obligation to assist you with any problems that arise through the use of your own
+computer for classwork
+2Although the GUI interface would work just as well, treat this as an exercise in getting to know the basic commands and
+behaviour of Bash — an extremely powerful programming tool in its own right. Also, many programs are run from the terminal,
+including compilers, interpreters, and powerful data-processing tools. Learning to work in the terminal efficiently is essenti
